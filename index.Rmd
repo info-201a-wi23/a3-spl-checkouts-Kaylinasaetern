@@ -7,6 +7,8 @@ output: html_document
 
 An introduction of the data and a description of the trends/books/items you are choosing to analyze (and why!)
 
+# The data that I chose was the checkouts of items that were checked out from the Seattle Public Libraries in 2022-2023. Trends that I am choosing to analyze is how the comparisons are between the items and material types that were checked out during the two different years.
+
 ### Summary Information
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
@@ -19,6 +21,7 @@ These will likely be calculated using your DPLYR skills, answering questions suc
 - How has the number of print book checkouts changed over time?
 
 Feel free to calculate and report values that you find relevant.
+# Some finding and patterns that I noticed when exploring the data is that a lot of the things that were checked out were physical items. The most checkouts made was 2950 checkouts, and in 2022 the title that was most checked out was "The House of Broken Angels", and in 2023 the item that was most checked out were headphones from SPL.
 
 ### The Dataset
 
@@ -28,6 +31,8 @@ Feel free to calculate and report values that you find relevant.
 - Why was the data collected?  
 - What, if any, ethical questions do you need to consider when working with this data?  
 - What are possible limitations or problems with this data?   (at least 200 words)
+
+# The data was collected and published by Seattle Public Libraries. The parameters of the data are the usage class meaning whether the item checked out was digital or physical, the check out type, the material type, the check out year, the check out month, the number of checkouts, the title of what was checked out, the ISBN, the creator of what was checked out, the subject of the item checked out, the publisher, and publication year.The data was collected by keeping track of what was checked out from the Seattle Public Libraries each month through out the year. Questions that I need to consider when working with this data is why were certain items checked out in previous years but not within the next year? Could it be because of trends or inaccurate data? Some possible limitations or problems is that the data dates back from 2022 but since we are in a new year, the data calculated for 2023 is from the beginning of 2023 so that sets a limitation for the data. 
 
 
 ### First Trends Over Time Chart
@@ -42,6 +47,8 @@ The first chart that you will create and include will show the trend over time o
 - The chart needs a clear title 
 - You need a legend for your different line colors and a clear - legend title
 In your .Rmd file, make sure to describe why you included the chart, and what patterns emerged
+
+# I included the chart and the data from it in order to compared the usage classes used between the years 2022 and 2023. Patterns that emerged that I noticed was that physical books were checked out more compared to digital.  
 
 When we say "clear" or "human readable" titles and labels, that means that you should not just display the variable name.
 
@@ -63,6 +70,8 @@ The second chart that you will create and include will show another trend over t
 - You need a legend for your different line colors and a clear - legend title
 In your .Rmd file, make sure to describe why you included the chart, and what patterns emerged
 
+# I included this chart and the data from it in order to see which material type was checked of the most. A pattern that I noticed was that books and ebooks were checked out the most compared to other material types such as audio books or videos.
+
 When we say "clear" or "human readable" titles and labels, that means that you should not just display the variable name.
 
 Here's an example of how to run an R script inside an RMarkdown file:
@@ -77,6 +86,8 @@ The last chart is up to you. It could be a line plot, scatter plot, histogram, b
 - You must have clear x and y axis labels
 - The chart needs a clear title 
 - You need a legend for your different line colors and a clear legend title
+
+# I included this chart and data in order to see what material types were available to check out throughout the years. A pattern that I noticed from this was that in 2023, some items that were not available or that were never checked out. Some of these items include videocass, compfile, and videodisc. 
 
 Here's an example of how to run an R script inside an RMarkdown file:
 
